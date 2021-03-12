@@ -804,6 +804,8 @@ img {
   transition: transform 1s, -webkit-transform 1s;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d; }
+  .border-radius__svg:nth-child(2) {
+    margin: 0px 30px; }
 
 .border-radius__svg:hover {
   -webkit-transform: rotateY(180deg);
@@ -816,7 +818,7 @@ img {
   -webkit-box-pack: space-evenly;
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
-  max-width: 160px;
+  max-width: 200px;
   width: 100%; }
   .flex-icon__svg:active {
     opacity: .7; }
@@ -1136,7 +1138,8 @@ img {
 * {
   padding: 0;
   margin: 0;
-  border: 0; }
+  border: 0;
+  letter-spacing: 1px !important; }
 
 body {
   font-family: 'Roboto', sans-serif;
