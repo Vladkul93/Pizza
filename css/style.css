@@ -818,7 +818,7 @@ img {
   -webkit-box-pack: space-evenly;
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
-  max-width: 200px;
+  max-width: 190px;
   width: 100%; }
   .flex-icon__svg:active {
     opacity: .7; }
