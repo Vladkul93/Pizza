@@ -971,6 +971,9 @@ img {
 .icon__margin-right {
   margin-right: 5px; }
 
+.form {
+  margin-left: -50px; }
+
 .form__input {
   display: block;
   width: 100%;
@@ -979,7 +982,9 @@ img {
   border-radius: 32px;
   margin-bottom: 8px;
   border: 2px solid transparent;
-  outline: none; }
+  outline: none;
+  margin-top: 20px;
+  margin-bottom: 20px; }
   .form__input:focus {
     border-color: #ffa650; }
 
@@ -993,16 +998,16 @@ img {
   margin-left: 30px; }
 
 .input__size {
-  width: 370px; }
+  width: 420px; }
   @media (max-width: 500px) {
     .input__size {
-      max-width: 310px; } }
+      max-width: 360px; } }
   @media (max-width: 400px) {
     .input__size {
-      max-width: 260px; } }
+      max-width: 310px; } }
   @media (max-width: 340px) {
     .input__size {
-      max-width: 210px; } }
+      max-width: 260px; } }
 
 .btn-close {
   position: relative;
